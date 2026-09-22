@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Student Query Chatbot
 
 ## Project Overview
@@ -55,3 +56,6 @@ Student_Query_Chatbot/
 ├── setup_nltk.py
 ├── requirements.txt
 └── README.md
+=======
+# AI-Student-Query-Chatbot
+>>>>>>> 720878872ca4130a38347407c81cf08ed9e75eff
