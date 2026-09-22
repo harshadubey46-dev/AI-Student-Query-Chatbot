@@ -1,0 +1,272 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Is anyone there?",
+                "Can you help me?",
+                "I need some help",
+                "I have a question",
+                "Hello chatbot",
+                "Hi there",
+                "Can you assist me?",
+                "I want some information"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi! What would you like to know?",
+                "Hello! Feel free to ask me your student-related questions.",
+                "Hi there! How can I assist you?"
+            ]
+        },
+
+        {
+            "tag": "courses",
+            "patterns": [
+                "What courses are available?",
+                "What courses do you offer?",
+                "Which courses can I take?",
+                "Tell me about the courses",
+                "What programs are available?",
+                "Which programs do you offer?",
+                "What degree programs are available?",
+                "Can you tell me about the available courses?",
+                "What subjects can I study?",
+                "Which programs can students choose?",
+                "What academic programs are offered?",
+                "What are the available programs?",
+                "Tell me about the courses offered",
+                "What can I study here?"
+            ],
+            "responses": [
+                "We offer various undergraduate and postgraduate programs. Please contact the admission office for the current list of courses.",
+                "You can check the official academic information for the current list of available programs.",
+                "Please contact the academic or admission department for detailed information about available courses."
+            ]
+        },
+
+        {
+            "tag": "fees",
+            "patterns": [
+                "What are the fees?",
+                "How much is the course fee?",
+                "Tell me about the fees",
+                "What is the tuition fee?",
+                "How much do I have to pay?",
+                "What is the admission fee?",
+                "How much does the course cost?",
+                "Can you tell me the fee structure?",
+                "What is the total course fee?",
+                "How much money is required for the course?",
+                "What are the tuition charges?",
+                "How much will I need to pay for admission?",
+                "Is there a fee for admission?",
+                "What is the cost of the program?"
+            ],
+            "responses": [
+                "The fee depends on the course and program. Please contact the administration office for the latest fee structure.",
+                "For the current fee structure, please contact the college administration or admission office.",
+                "Please contact the admission department for detailed information about course fees and other charges."
+            ]
+        },
+
+        {
+            "tag": "admission",
+            "patterns": [
+                "How can I get admission?",
+                "What is the admission process?",
+                "How do I apply for admission?",
+                "When does admission start?",
+                "What documents are required for admission?",
+                "Tell me about admission",
+                "How can I apply?",
+                "What is required for admission?",
+                "What are the admission requirements?",
+                "Where can I apply for admission?",
+                "How do I take admission?",
+                "Can you explain the admission procedure?",
+                "What documents do I need to apply?",
+                "When can I apply for a course?"
+            ],
+            "responses": [
+                "Admission requirements and procedures depend on the course. Please contact the admission office for detailed information.",
+                "You can contact the admission office to learn about eligibility, documents and application procedures.",
+                "Please check the official admission guidelines for eligibility, required documents and application details."
+            ]
+        },
+
+        {
+            "tag": "timings",
+            "patterns": [
+                "What are the college timings?",
+                "When does college start?",
+                "When does college close?",
+                "What time are classes?",
+                "What are the class timings?",
+                "Tell me the college working hours",
+                "What time does college open?",
+                "What time does college end?",
+                "When do classes begin?",
+                "When do classes finish?",
+                "What are the working hours?",
+                "What is the college schedule?",
+                "What time should students arrive?",
+                "What are the daily college hours?"
+            ],
+            "responses": [
+                "College timings are generally from 9:00 AM to 4:00 PM, Monday to Friday.",
+                "Please check the latest academic timetable for specific class timings.",
+                "Class timings may vary by program. Please refer to the latest timetable for details."
+            ]
+        },
+
+        {
+            "tag": "exams",
+            "patterns": [
+                "When are the exams?",
+                "When will exams start?",
+                "Tell me about the exams",
+                "Where can I find the exam timetable?",
+                "When is the examination?",
+                "How can I check my exam schedule?",
+                "When are semester exams?",
+                "When will the examination timetable be released?",
+                "Where can I check exam dates?",
+                "How do I find the exam schedule?",
+                "When are the final exams?",
+                "Can you tell me about the examination schedule?",
+                "When will my exams be held?",
+                "Where is the exam timetable?"
+            ],
+            "responses": [
+                "The examination schedule is announced by the academic department. Please check the official notice or academic portal for the latest timetable.",
+                "Please check the examination section or official academic portal for the latest exam schedule.",
+                "The exam timetable is published by the academic department. Please refer to the official academic announcements."
+            ]
+        },
+
+        {
+            "tag": "attendance",
+            "patterns": [
+                "What is the attendance requirement?",
+                "How much attendance is required?",
+                "What is the minimum attendance?",
+                "Tell me about attendance",
+                "Can I attend exams with low attendance?",
+                "How many classes do I need to attend?",
+                "What percentage of attendance is required?",
+                "How much attendance do students need?",
+                "What happens if my attendance is low?",
+                "Is minimum attendance compulsory?",
+                "What are the attendance rules?",
+                "How is attendance calculated?",
+                "Can I write exams with low attendance?",
+                "What is the required attendance percentage?"
+            ],
+            "responses": [
+                "Attendance requirements depend on the institution and program. Please refer to the official academic regulations.",
+                "Please contact your department for the current attendance requirements.",
+                "Students should follow the attendance rules specified by their department and academic regulations."
+            ]
+        },
+
+        {
+            "tag": "scholarship",
+            "patterns": [
+                "Are scholarships available?",
+                "How can I get a scholarship?",
+                "Tell me about scholarships",
+                "What scholarships are available?",
+                "Who can apply for a scholarship?",
+                "Is there any financial assistance?",
+                "Can students get scholarships?",
+                "How do I apply for a scholarship?",
+                "What are the scholarship requirements?",
+                "Who is eligible for scholarships?",
+                "Are there scholarships for students?",
+                "Where can I find scholarship information?",
+                "What financial aid is available?",
+                "Can I get financial assistance for my studies?"
+            ],
+            "responses": [
+                "Scholarships may be available for eligible students. Please contact the scholarship or student welfare office for current information.",
+                "Please check the official scholarship guidelines for eligibility and application details.",
+                "For information about scholarships and financial assistance, please contact the student welfare or scholarship department."
+            ]
+        },
+
+        {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact the college?",
+                "What is the college contact number?",
+                "Give me the contact information",
+                "How do I contact the administration?",
+                "Where can I find the college contact details?",
+                "Who should I contact for help?",
+                "What is the college phone number?",
+                "How can I reach the college?",
+                "Where can I get contact information?",
+                "How do I contact the admission office?",
+                "How can I contact the administration office?",
+                "Who can I contact for information?",
+                "Where is the contact information?",
+                "Can I get the college helpline number?"
+            ],
+            "responses": [
+                "Please refer to the official college website for the latest contact information.",
+                "You can contact the college administration or help desk for assistance.",
+                "For specific queries, please contact the appropriate department through the official college contact details."
+            ]
+        },
+        {
+    "tag": "help",
+    "patterns": [
+        "What can you help me with?",
+        "What can you answer?",
+        "What questions can I ask?",
+        "What information can you provide?",
+        "What can I ask you?",
+        "How can you help me?",
+        "What topics can you answer?",
+        "What do you know about?"
+    ],
+    "responses": [
+        "I can help you with questions about courses, fees, admission, exams, timings, attendance, scholarships, and college contact information.",
+        "You can ask me about courses, fees, admission procedures, examinations, attendance, scholarships, timings, and contact details.",
+        "I can answer common student-related questions about academic programs, fees, admission, exams, attendance, scholarships, and college information."
+    ]
+},
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Exit",
+                "Quit",
+                "Thank you",
+                "Thanks",
+                "Thank you so much",
+                "I am done",
+                "That's all",
+                "I have no more questions",
+                "See you",
+                "Talk to you later",
+                "End chat"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "You're welcome! Have a great day!",
+                "Goodbye! Feel free to come back if you have more questions.",
+                "Thanks for chatting! Have a great day!"
+            ]
+        }
+    ]
+}
